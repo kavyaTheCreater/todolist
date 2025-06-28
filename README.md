@@ -11,6 +11,8 @@ Features
 -  Modern UI with Tailwind & ShadCN components
 -  Fast dev experience using Vite
 
+  🔗 **Live Demo**: [Click here to try it](https://mgx-fvnpito0umh.mgx.world/)
+
 ##  Tech Stack
 
 | Tech           | Description                        |
