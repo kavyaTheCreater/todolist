@@ -1,61 +1,32 @@
-# Shadcn-UI Template Usage Instructions
+# 📝 To-Do List App
 
-## technology stack
+A modern, minimalistic To-Do List web application built with **React**, **TypeScript**, **Tailwind CSS**, and **Vite**. This app allows users to add, delete, filter, and mark tasks as completed.
 
-This project is built with:
+Features
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+-  Add and remove tasks
+-  Mark tasks as completed
+-  Filter by status (All / Active / Completed)
+-  Persistent state using context
+-  Modern UI with Tailwind & ShadCN components
+-  Fast dev experience using Vite
 
-All shadcn/ui components have been downloaded under `@/components/ui`.
+##  Tech Stack
 
-## File Structure
+| Tech           | Description                        |
+|----------------|------------------------------------|
+| React + TS     | Frontend framework                 |
+| Vite           | Build tool and dev server          |
+| Tailwind CSS   | Utility-first CSS framework        |
+| Context API    | State management for todos         |
+| ShadCN UI      | Custom UI components               |
+| ESLint         | Code linting                       |
+| pnpm           | Package manager (alternative to npm/yarn) |
 
-- `index.html` - HTML entry point
-- `vite.config.ts` - Vite configuration file
-- `tailwind.config.js` - Tailwind CSS configuration file
-- `package.json` - NPM dependencies and scripts
-- `src/app.tsx` - Root component of the project
-- `src/main.tsx` - Project entry point
-- `src/index.css` - Existing CSS configuration
+## 🛠️ Getting Started
 
-## Components
+### 1. Clone the repository
 
-- All shadcn/ui components are pre-downloaded and available at `@/components/ui`
-
-## Styling
-
-- Add global styles to `src/index.css` or create new CSS files as needed
-- Use Tailwind classes for styling components
-
-## Development
-
-- Import components from `@/components/ui` in your React components
-- Customize the UI by modifying the Tailwind configuration
-
-## Note
-
-The `@/` path alias points to the `src/` directory
-
-# Commands
-
-**Install Dependencies**
-
-```shell
-pnpm i
-```
-
-**Start Preview**
-
-```shell
-pnpm run dev
-```
-
-**To build**
-
-```shell
-pnpm run build
-```
+```bash
+git clone https://github.com/YOUR_USERNAME/todo-list.git
+cd todo-list
